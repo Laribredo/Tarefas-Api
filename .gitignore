@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Tarefa_API/bin/Debug/netcoreapp2.2
+/Tarefa_API/obj
