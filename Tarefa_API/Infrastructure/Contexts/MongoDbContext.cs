@@ -21,10 +21,8 @@ namespace TCC_API.Infrastructure.Context
         {
             try
             {
-
-                //MongoClientSettings settings = MongoClientSettings.FromUrl(new MongoUrl("mongodb://localhost:27017"));
+                //URL PARA CONEXÃO COM O MONGO.
                 MongoClientSettings settings = MongoClientSettings.FromUrl(new MongoUrl("mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false"));
-                //settings.Credential = MongoCredential.CreateCredential("Colidencias", "hc", "Hildeir#0106");
                 if (true)
                 {
                     settings.SslSettings = new SslSettings { EnabledSslProtocols = System.Security.Authentication.SslProtocols.None };
