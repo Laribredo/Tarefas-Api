@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Tarefa_Api.Services;
-using TCC_API.DTO;
-using TCC_API.Infrastructure.Enums;
+using Tarefa_Api.DTO;
+using Tarefa_Api.Infrastructure.Enums;
 using TCC_API.Infrastructure.Repository;
-using TCC_API.Services;
+using Tarefa_Api.Services;
 
 namespace Tarefa_Api.Controllers
 {

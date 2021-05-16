@@ -8,7 +8,7 @@ using MongoDB.Driver;
 using Tarefa_Api.Infrastructure.Repository;
 using TCC_API.Infrastructure.Repository;
 
-namespace TCC_API.Infrastructure.Context
+namespace Tarefa_Api.Infrastructure.Context
 {
     public class MongoDbContext {
         public static string ConnectionString { get; set; }

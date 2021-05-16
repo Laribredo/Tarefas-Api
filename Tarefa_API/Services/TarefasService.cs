@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Tarefa_Api.Infrastructure.Repository;
-using TCC_API.DTO;
-using TCC_API.Infrastructure.Context;
+using Tarefa_Api.DTO;
+using Tarefa_Api.Infrastructure.Context;
 using MongoDB.Driver;
 
 namespace Tarefa_Api.Services

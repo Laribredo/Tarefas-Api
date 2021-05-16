@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TCC_API.DTO
+namespace Tarefa_Api.DTO
 {
     public class ResponseCadastroDTO
     {

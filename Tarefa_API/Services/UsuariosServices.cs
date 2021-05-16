@@ -5,8 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Tarefa_Api.Infrastructure;
-using TCC_API.DTO;
-using TCC_API.Infrastructure.Context;
+using Tarefa_Api.DTO;
+using Tarefa_Api.Infrastructure.Context;
 using TCC_API.Infrastructure.Repository;
 
 namespace Tarefa_Api.Services
@@ -89,7 +89,7 @@ namespace Tarefa_Api.Services
                     email = "",
                     nome = "admin",
                     senha = "admin",
-                    permissao = TCC_API.Infrastructure.Enums.Permissoes.Administrador,
+                    permissao = Tarefa_Api.Infrastructure.Enums.Permissoes.Administrador,
                 };
             }
             else

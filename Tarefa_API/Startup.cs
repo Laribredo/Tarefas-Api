@@ -15,10 +15,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Tarefa_Api.Services;
-using TCC_API.Infrastructure;
-using TCC_API.Services;
-
-namespace TCC_API
+using Tarefa_Api.Infrastructure;
+namespace Tarefa_Api
 {
     public class Startup
     {

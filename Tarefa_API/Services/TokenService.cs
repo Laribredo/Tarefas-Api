@@ -4,10 +4,10 @@ using System.Security.Claims;
 using System.Text;
 
 using Microsoft.IdentityModel.Tokens;
-using TCC_API.Infrastructure;
+using Tarefa_Api.Infrastructure;
 using TCC_API.Infrastructure.Repository;
 
-namespace TCC_API.Services
+namespace Tarefa_Api.Services
 {
     public class TokenService
     {
