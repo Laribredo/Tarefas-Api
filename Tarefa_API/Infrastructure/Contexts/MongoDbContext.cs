@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
+using Tarefa_Api.Infrastructure.Repository;
 using TCC_API.Infrastructure.Repository;
 
 namespace TCC_API.Infrastructure.Context
@@ -45,7 +46,13 @@ namespace TCC_API.Infrastructure.Context
             }
         }
 
-       
-       
+        public IMongoCollection<Tarefas> Tarefas
+        {
+            get
+            {
+                return _database.GetCollection<Tarefas>("Tarefas");
+            }
+        }
+
     }
 }

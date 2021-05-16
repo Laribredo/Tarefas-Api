@@ -37,6 +37,7 @@ namespace TCC_API
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddTransient<TokenService>();
             services.AddTransient<UsuariosServices>();
+            services.AddTransient<TarefasService>();
 
 
             services.AddCors(options =>

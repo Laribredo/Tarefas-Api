@@ -18,7 +18,7 @@ namespace Tarefa_Api.Controllers
     {
 
         [HttpGet]
-        [Authorize(Roles = "Administrador")]
+        [Authorize]
         public IActionResult Get()
         {
             return Ok(new { api = true });
